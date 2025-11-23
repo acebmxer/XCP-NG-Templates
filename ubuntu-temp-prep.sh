@@ -29,4 +29,4 @@ sudo apt-get clean
 echo "Delete SSH host keys"
 sudo find /etc/ssh/ -type f -name 'ssh_host_*' -delete
 echo "Shutting down now"
-sudo shutdown now
+# sudo shutdown now
