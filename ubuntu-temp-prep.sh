@@ -13,7 +13,7 @@ sudo rm -f /etc/cloud/cloud.cfg.d/99-installer.cfg
 echo "Remove /etc/cloud/cloud.cfg.d/90-installer-network.cfg"
 sudo rm -f /etc/cloud/cloud.cfg.d/90-installer-network.cfg
 echo "Clean cloud-init logs and seed"
-cloud-init clean --logs --seed
+sudo cloud-init clean --logs --seed
 echo "Remove /var/lib/cloud/instances and /var/lib/cloud/instance"
 sudo rm -rf /var/lib/cloud/instances /var/lib/cloud/instance
 echo "Remove /var/log/cloud-init.log and /var/log/cloud-init*"
